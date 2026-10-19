@@ -1,0 +1,32 @@
+[
+ {
+  "hole_id": "CAND-091",
+  "metres": 199.0,
+  "cost_usd": 70076.36,
+  "n_intervals": 2,
+  "mineralized_m": 127.5,
+  "deep_mineralized_m": 97.5,
+  "max_zn": 9.269209861755371,
+  "timestamp": "2026-10-19T13:48:37.997124+00:00"
+ },
+ {
+  "hole_id": "CAND-078",
+  "metres": 219.57220587353586,
+  "cost_usd": 88835.34249832915,
+  "n_intervals": 1,
+  "mineralized_m": 117.5,
+  "deep_mineralized_m": 7.5,
+  "max_zn": 18.958030700683594,
+  "timestamp": "2026-10-19T13:48:39.967857+00:00"
+ },
+ {
+  "hole_id": "CAND-077",
+  "metres": 199.0,
+  "cost_usd": 70076.36,
+  "n_intervals": 2,
+  "mineralized_m": 115.0,
+  "deep_mineralized_m": 15.0,
+  "max_zn": 18.763025283813477,
+  "timestamp": "2026-10-19T13:48:42.240202+00:00"
+ }
+]

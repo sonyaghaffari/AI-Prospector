@@ -1,0 +1,52 @@
+[
+ {
+  "hole_id": "CAND-102",
+  "metres": 219.57220587353586,
+  "cost_usd": 88835.34249832915,
+  "n_intervals": 0,
+  "mineralized_m": 0.0,
+  "deep_mineralized_m": 0.0,
+  "max_zn": 0.14001239836215973,
+  "timestamp": "2026-10-19T10:41:23.440232+00:00"
+ },
+ {
+  "hole_id": "CAND-037",
+  "metres": 199.0,
+  "cost_usd": 70076.36,
+  "n_intervals": 0,
+  "mineralized_m": 0.0,
+  "deep_mineralized_m": 0.0,
+  "max_zn": 0.8486482501029968,
+  "timestamp": "2026-10-19T10:41:25.066754+00:00"
+ },
+ {
+  "hole_id": "CAND-113",
+  "metres": 199.0,
+  "cost_usd": 70076.36,
+  "n_intervals": 0,
+  "mineralized_m": 0.0,
+  "deep_mineralized_m": 0.0,
+  "max_zn": 0.1540220081806183,
+  "timestamp": "2026-10-19T10:41:26.511646+00:00"
+ },
+ {
+  "hole_id": "CAND-040",
+  "metres": 199.0,
+  "cost_usd": 70076.36,
+  "n_intervals": 0,
+  "mineralized_m": 0.0,
+  "deep_mineralized_m": 0.0,
+  "max_zn": 0.12415558844804764,
+  "timestamp": "2026-10-19T10:41:27.908994+00:00"
+ },
+ {
+  "hole_id": "CAND-122",
+  "metres": 199.0,
+  "cost_usd": 70076.36,
+  "n_intervals": 0,
+  "mineralized_m": 0.0,
+  "deep_mineralized_m": 0.0,
+  "max_zn": 0.1002950444817543,
+  "timestamp": "2026-10-19T10:41:29.347395+00:00"
+ }
+]

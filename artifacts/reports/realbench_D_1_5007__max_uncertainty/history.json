@@ -1,0 +1,97 @@
+[
+ {
+  "index": 0,
+  "n_samples": 3605,
+  "n_holes": 86,
+  "train_seconds": 1.197653100010939,
+  "drilled_hole_id": "CAND-078",
+  "drill_summary": {
+   "hole_id": "CAND-078",
+   "metres": 219.57220587353586,
+   "cost_usd": 88835.34249832915,
+   "n_intervals": 1,
+   "mineralized_m": 150.0,
+   "deep_mineralized_m": 40.0,
+   "max_zn": 34.358734130859375,
+   "timestamp": "2026-10-19T10:46:31.501067+00:00"
+  },
+  "budget_remaining": 711164.6575016709,
+  "timestamp": 1792406791.524796
+ },
+ {
+  "index": 1,
+  "n_samples": 3684,
+  "n_holes": 87,
+  "train_seconds": 1.6939234999881592,
+  "drilled_hole_id": "CAND-075",
+  "drill_summary": {
+   "hole_id": "CAND-075",
+   "metres": 199.0,
+   "cost_usd": 70076.36,
+   "n_intervals": 2,
+   "mineralized_m": 47.5,
+   "deep_mineralized_m": 5.0,
+   "max_zn": 3.7151548862457275,
+   "timestamp": "2026-10-19T10:46:33.411635+00:00"
+  },
+  "budget_remaining": 641088.2975016709,
+  "timestamp": 1792406793.4364784
+ },
+ {
+  "index": 2,
+  "n_samples": 3771,
+  "n_holes": 88,
+  "train_seconds": 1.4147530000045663,
+  "drilled_hole_id": "CAND-076",
+  "drill_summary": {
+   "hole_id": "CAND-076",
+   "metres": 219.57220587353586,
+   "cost_usd": 88835.34249832915,
+   "n_intervals": 1,
+   "mineralized_m": 105.0,
+   "deep_mineralized_m": 32.5,
+   "max_zn": 18.56046485900879,
+   "timestamp": "2026-10-19T10:46:35.039912+00:00"
+  },
+  "budget_remaining": 552252.9550033417,
+  "timestamp": 1792406795.06428
+ },
+ {
+  "index": 3,
+  "n_samples": 3850,
+  "n_holes": 89,
+  "train_seconds": 1.3332316000014544,
+  "drilled_hole_id": "CAND-077",
+  "drill_summary": {
+   "hole_id": "CAND-077",
+   "metres": 199.0,
+   "cost_usd": 70076.36,
+   "n_intervals": 1,
+   "mineralized_m": 152.5,
+   "deep_mineralized_m": 52.5,
+   "max_zn": 28.279010772705078,
+   "timestamp": "2026-10-19T10:46:36.606967+00:00"
+  },
+  "budget_remaining": 482176.5950033417,
+  "timestamp": 1792406796.6324067
+ },
+ {
+  "index": 4,
+  "n_samples": 3929,
+  "n_holes": 90,
+  "train_seconds": 1.4073839999909978,
+  "drilled_hole_id": "CAND-079",
+  "drill_summary": {
+   "hole_id": "CAND-079",
+   "metres": 199.0,
+   "cost_usd": 70076.36,
+   "n_intervals": 1,
+   "mineralized_m": 40.0,
+   "deep_mineralized_m": 0.0,
+   "max_zn": 3.6720619201660156,
+   "timestamp": "2026-10-19T10:46:38.245637+00:00"
+  },
+  "budget_remaining": 412100.2350033417,
+  "timestamp": 1792406798.2703748
+ }
+]

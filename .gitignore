@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude/
+
+# Generated experiment data (regenerable via main.py new / scripts/) -- large and/or raw binary,
+# not meant for version control. artifacts/reports/ (the PDF reports, JSON/CSV result logs) IS
+# tracked: it's the small, human-readable deliverable output of the project.
+data/hidden_truth/
+data/observed/
+data/synthetic_worlds/
+artifacts/checkpoints/
+artifacts/predictions/
+artifacts/figures/
+
+.streamlit/

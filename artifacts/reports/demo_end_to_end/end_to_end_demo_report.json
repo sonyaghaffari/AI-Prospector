@@ -1,0 +1,345 @@
+{
+  "exp_id": "demo_end_to_end",
+  "profile": "demo",
+  "seed": 20261019,
+  "steps": [
+    {
+      "iteration": 0,
+      "train_seconds": 2.0522790999966674,
+      "n_samples": 3596,
+      "n_holes": 85,
+      "ranking_seconds": 0.38160930000594817,
+      "top_candidate": {
+        "hole_id": "CAND-061",
+        "score": 0.8281732797622681,
+        "exp_mineralized_m": 72.45254516601562,
+        "eivr_pct": 3.4201648235321045,
+        "cost_usd": 70076.36
+      },
+      "drill_result": {
+        "hole_id": "CAND-061",
+        "metres": 199.0,
+        "cost_usd": 70076.36,
+        "n_intervals": 2,
+        "mineralized_m": 177.5,
+        "deep_mineralized_m": 97.5,
+        "max_zn": 23.03384017944336,
+        "timestamp": "2026-10-19T10:34:14.736234+00:00"
+      },
+      "metrics_before_this_drill": {
+        "all_zn_mae": 1.6221762895584106,
+        "all_zn_rmse": 3.3322606086730957,
+        "all_pb_mae": 0.4583629369735718,
+        "all_pb_rmse": 0.9198090434074402,
+        "all_ece": 0.07770986443045985,
+        "all_brier": 0.07744035133163507,
+        "all_interval_coverage_90": 0.8719211822660099,
+        "all_error_uncertainty_spearman": 0.8280087407608903,
+        "all_n": 609,
+        "all_roc_auc": 0.961701940552266,
+        "all_average_precision": 0.8565721565523224,
+        "all_precision_at_50pct_recall": 0.28793774319066145,
+        "extrapolation_deep_zn_mae": 1.6221762895584106,
+        "extrapolation_deep_zn_rmse": 3.3322606086730957,
+        "extrapolation_deep_pb_mae": 0.4583629369735718,
+        "extrapolation_deep_pb_rmse": 0.9198090434074402,
+        "extrapolation_deep_ece": 0.07770986443045985,
+        "extrapolation_deep_brier": 0.07744035133163507,
+        "extrapolation_deep_interval_coverage_90": 0.8719211822660099,
+        "extrapolation_deep_error_uncertainty_spearman": 0.8280087407608903,
+        "extrapolation_deep_n": 609,
+        "extrapolation_deep_roc_auc": 0.961701940552266,
+        "extrapolation_deep_average_precision": 0.8565721565523224,
+        "extrapolation_deep_precision_at_50pct_recall": 0.28793774319066145
+      },
+      "hypothesis_posterior": {
+        "available": true,
+        "posterior": {
+          "H1": 0.40174540877342224,
+          "H2": 0.1715361326932907,
+          "H3": 0.4267179071903229,
+          "H4": 5.503732154465979e-07
+        },
+        "n_deep_composites": 10,
+        "fit": {
+          "ax": [
+            504.93811247172926,
+            0.21445650680619022
+          ],
+          "ay": [
+            378.6608290705604,
+            -0.05388916012434096
+          ],
+          "r_major": 41.74432565550058,
+          "r_minor": 36.743158870581624,
+          "phi": -2.5289058909981508,
+          "p0": 0.95,
+          "strike": [
+            -0.7145952635586277,
+            -0.6995381399877196
+          ],
+          "n_mineralized": 1125
+        },
+        "p_continuation": 0.9999994039535522
+      },
+      "budget_remaining": 729923.64
+    },
+    {
+      "iteration": 1,
+      "train_seconds": 1.6366700999933528,
+      "n_samples": 3675,
+      "n_holes": 86,
+      "ranking_seconds": 0.19196670000383165,
+      "top_candidate": {
+        "hole_id": "CAND-076",
+        "score": 0.7709581851959229,
+        "exp_mineralized_m": 101.68269348144531,
+        "eivr_pct": 1.8155803680419922,
+        "cost_usd": 88835.34249832915
+      },
+      "drill_result": {
+        "hole_id": "CAND-076",
+        "metres": 219.57220587353586,
+        "cost_usd": 88835.34249832915,
+        "n_intervals": 1,
+        "mineralized_m": 97.5,
+        "deep_mineralized_m": 90.0,
+        "max_zn": 12.486005783081055,
+        "timestamp": "2026-10-19T10:34:16.618163+00:00"
+      },
+      "metrics_before_this_drill": {
+        "all_zn_mae": 1.6602648496627808,
+        "all_zn_rmse": 3.3992397785186768,
+        "all_pb_mae": 0.5251144766807556,
+        "all_pb_rmse": 1.0704717636108398,
+        "all_ece": 0.07982972687590495,
+        "all_brier": 0.06801161101272805,
+        "all_interval_coverage_90": 0.8899835796387521,
+        "all_error_uncertainty_spearman": 0.8734363112416427,
+        "all_n": 609,
+        "all_roc_auc": 0.9582136366301226,
+        "all_average_precision": 0.8456159149625144,
+        "all_precision_at_50pct_recall": 0.2857142857142857,
+        "extrapolation_deep_zn_mae": 1.6602648496627808,
+        "extrapolation_deep_zn_rmse": 3.3992397785186768,
+        "extrapolation_deep_pb_mae": 0.5251144766807556,
+        "extrapolation_deep_pb_rmse": 1.0704717636108398,
+        "extrapolation_deep_ece": 0.07982972687590495,
+        "extrapolation_deep_brier": 0.06801161101272805,
+        "extrapolation_deep_interval_coverage_90": 0.8899835796387521,
+        "extrapolation_deep_error_uncertainty_spearman": 0.8734363112416427,
+        "extrapolation_deep_n": 609,
+        "extrapolation_deep_roc_auc": 0.9582136366301226,
+        "extrapolation_deep_average_precision": 0.8456159149625144,
+        "extrapolation_deep_precision_at_50pct_recall": 0.2857142857142857
+      },
+      "hypothesis_posterior": {
+        "available": true,
+        "posterior": {
+          "H1": 0.256121963262558,
+          "H2": 0.7431368827819824,
+          "H3": 0.0007393172127194703,
+          "H4": 2.2291901586868335e-06
+        },
+        "n_deep_composites": 21,
+        "fit": {
+          "ax": [
+            504.93130522838226,
+            0.205478966769385
+          ],
+          "ay": [
+            376.90047229112713,
+            -0.060746435492926444
+          ],
+          "r_major": 42.3966427680283,
+          "r_minor": 37.04919928473342,
+          "phi": 0.8057686242858965,
+          "p0": 0.95,
+          "strike": [
+            -0.7145655844515998,
+            -0.6995684566325397
+          ],
+          "n_mineralized": 1157
+        },
+        "p_continuation": 0.9999982118606567
+      },
+      "budget_remaining": 641088.2975016709
+    },
+    {
+      "iteration": 2,
+      "train_seconds": 1.6067032999999356,
+      "n_samples": 3762,
+      "n_holes": 87,
+      "ranking_seconds": 0.19193350001296494,
+      "top_candidate": {
+        "hole_id": "CAND-072",
+        "score": 0.6063374280929565,
+        "exp_mineralized_m": 20.811004638671875,
+        "eivr_pct": 2.462682008743286,
+        "cost_usd": 70076.36
+      },
+      "drill_result": {
+        "hole_id": "CAND-072",
+        "metres": 199.0,
+        "cost_usd": 70076.36,
+        "n_intervals": 0,
+        "mineralized_m": 0.0,
+        "deep_mineralized_m": 0.0,
+        "max_zn": 0.2409760057926178,
+        "timestamp": "2026-10-19T10:34:18.469752+00:00"
+      },
+      "metrics_before_this_drill": {
+        "all_zn_mae": 1.255384087562561,
+        "all_zn_rmse": 2.4434897899627686,
+        "all_pb_mae": 0.3295532763004303,
+        "all_pb_rmse": 0.639306902885437,
+        "all_ece": 0.07985714324161239,
+        "all_brier": 0.06745804728553959,
+        "all_interval_coverage_90": 0.9146141215106732,
+        "all_error_uncertainty_spearman": 0.8361323036250886,
+        "all_n": 609,
+        "all_roc_auc": 0.9617459107697719,
+        "all_average_precision": 0.8625268110216466,
+        "all_precision_at_50pct_recall": 0.2846153846153846,
+        "extrapolation_deep_zn_mae": 1.255384087562561,
+        "extrapolation_deep_zn_rmse": 2.4434897899627686,
+        "extrapolation_deep_pb_mae": 0.3295532763004303,
+        "extrapolation_deep_pb_rmse": 0.639306902885437,
+        "extrapolation_deep_ece": 0.07985714324161239,
+        "extrapolation_deep_brier": 0.06745804728553959,
+        "extrapolation_deep_interval_coverage_90": 0.9146141215106732,
+        "extrapolation_deep_error_uncertainty_spearman": 0.8361323036250886,
+        "extrapolation_deep_n": 609,
+        "extrapolation_deep_roc_auc": 0.9617459107697719,
+        "extrapolation_deep_average_precision": 0.8625268110216466,
+        "extrapolation_deep_precision_at_50pct_recall": 0.2846153846153846
+      },
+      "hypothesis_posterior": {
+        "available": true,
+        "posterior": {
+          "H1": 0.26921385526657104,
+          "H2": 0.7299193143844604,
+          "H3": 0.0008646065834909678,
+          "H4": 2.4999817469506525e-06
+        },
+        "n_deep_composites": 31,
+        "fit": {
+          "ax": [
+            504.7377861902763,
+            0.21169250192443817
+          ],
+          "ay": [
+            377.07463248729846,
+            -0.06634487558851002
+          ],
+          "r_major": 42.34184117343468,
+          "r_minor": 37.119931288991154,
+          "phi": 0.8051049539966955,
+          "p0": 0.95,
+          "strike": [
+            -0.7146671889635132,
+            -0.6994646588762508
+          ],
+          "n_mineralized": 1160
+        },
+        "p_continuation": 0.9999977946281433
+      },
+      "budget_remaining": 571011.9375016708
+    }
+  ],
+  "gpu": {
+    "torch_version": "2.14.1+cu126",
+    "torch_cuda_build": "12.6",
+    "cuda_available": true,
+    "cudnn_version": 91002,
+    "device_name": "NVIDIA GeForce RTX 2080 Ti",
+    "compute_capability": "75",
+    "total_vram_gb": 11.810832384,
+    "free_vram_gb": 10.597957632,
+    "driver_version": "560.94",
+    "driver_cuda_version": "12.6",
+    "python": "3.13.15"
+  },
+  "world_build_seconds": 2.6282240000000456,
+  "n_historical_holes": 100,
+  "n_candidates": 126,
+  "n_initial_observed_samples": 3596,
+  "final_metrics": {
+    "all_zn_mae": 1.255384087562561,
+    "all_zn_rmse": 2.4434897899627686,
+    "all_pb_mae": 0.3295532763004303,
+    "all_pb_rmse": 0.639306902885437,
+    "all_ece": 0.07985714324161239,
+    "all_brier": 0.06745804728553959,
+    "all_interval_coverage_90": 0.9146141215106732,
+    "all_error_uncertainty_spearman": 0.8361323036250886,
+    "all_n": 609,
+    "all_roc_auc": 0.9617459107697719,
+    "all_average_precision": 0.8625268110216466,
+    "all_precision_at_50pct_recall": 0.2846153846153846,
+    "extrapolation_deep_zn_mae": 1.255384087562561,
+    "extrapolation_deep_zn_rmse": 2.4434897899627686,
+    "extrapolation_deep_pb_mae": 0.3295532763004303,
+    "extrapolation_deep_pb_rmse": 0.639306902885437,
+    "extrapolation_deep_ece": 0.07985714324161239,
+    "extrapolation_deep_brier": 0.06745804728553959,
+    "extrapolation_deep_interval_coverage_90": 0.9146141215106732,
+    "extrapolation_deep_error_uncertainty_spearman": 0.8361323036250886,
+    "extrapolation_deep_n": 609,
+    "extrapolation_deep_roc_auc": 0.9617459107697719,
+    "extrapolation_deep_average_precision": 0.8625268110216466,
+    "extrapolation_deep_precision_at_50pct_recall": 0.2846153846153846
+  },
+  "total_seconds": 8.88211649999721,
+  "perf_log": [
+    {
+      "name": "world_generation",
+      "seconds": 0.986334999994142,
+      "peak_mem_mb": 0.0,
+      "gpu_util_pct": 1.0
+    },
+    {
+      "name": "training",
+      "seconds": 2.1022249999950873,
+      "peak_mem_mb": 102.221312,
+      "gpu_util_pct": 36.0
+    },
+    {
+      "name": "variogram_estimation",
+      "seconds": 0.08734420000109822,
+      "peak_mem_mb": 279.103488,
+      "gpu_util_pct": 35.0
+    },
+    {
+      "name": "candidate_scoring",
+      "seconds": 0.16750529999262653,
+      "peak_mem_mb": 597.932544,
+      "gpu_util_pct": 35.0
+    },
+    {
+      "name": "training",
+      "seconds": 1.672494900005404,
+      "peak_mem_mb": 102.956544,
+      "gpu_util_pct": 30.0
+    },
+    {
+      "name": "candidate_scoring",
+      "seconds": 0.0958768999989843,
+      "peak_mem_mb": 597.932544,
+      "gpu_util_pct": 37.0
+    },
+    {
+      "name": "training",
+      "seconds": 1.6426050000009127,
+      "peak_mem_mb": 103.690752,
+      "gpu_util_pct": 31.0
+    },
+    {
+      "name": "candidate_scoring",
+      "seconds": 0.09631939999235328,
+      "peak_mem_mb": 597.932544,
+      "gpu_util_pct": 31.0
+    }
+  ],
+  "truth_manifest_verified": true
+}

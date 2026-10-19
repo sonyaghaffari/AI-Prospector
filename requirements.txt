@@ -1,0 +1,14 @@
+# Install torch FIRST, matching your CUDA driver, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu126
+# (see README.md "GPU setup" before running this file)
+torch>=2.3
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+pyarrow>=14.0
+scikit-learn>=1.3
+plotly>=5.18
+streamlit>=1.32
+matplotlib>=3.8
+pytest>=8.0
+kaleido>=0.2.1

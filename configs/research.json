@@ -1,0 +1,23 @@
+{
+  "profile": "research",
+  "world": {"extent": [1000.0, 1000.0, 200.0], "shape": [80, 80, 64], "scenario": "random", "seed": 20261019,
+            "cutoff_zn_pb": 2.0, "collar_datum_masl": 2000.0},
+  "historical": {"n_train_holes": 85, "n_validation_holes": 15, "sample_spacing": 2.0, "observed_max_depth": 100.0,
+                "cluster_fraction": 0.7, "assay_noise_rel": 0.05},
+  "candidates": {"spacing": 75.0, "inclined_dip": 65.0, "min_separation": 30.0, "max_length": 250.0,
+                "boundary_margin": 30.0, "mobilization_cost": 20000.0, "cost_per_m": 180.0,
+                "depth_cost_factor": 0.004, "inclined_premium": 0.25},
+  "model": {"ensemble_size": 8, "hidden": 192, "layers": 4, "fourier_features": 48, "fourier_sigma": 1.0,
+           "lr": 0.002, "weight_decay": 0.0001, "max_epochs": 800, "min_epochs": 120, "patience": 60,
+           "batch_size": 1024, "val_hole_fraction": 0.15, "amp": true, "use_geophysics": true,
+           "lith_loss_weight": 0.5},
+  "acquisition": {"strategy": "multi_objective", "target_points": 8000, "corr_range_h": 150.0,
+                 "corr_range_v": 40.0, "estimate_variogram": true, "trajectory_step": 4.0, "w_eivr": 0.5,
+                 "w_mineral": 0.3, "w_hypothesis": 0.2},
+  "hypotheses": {"enabled": true, "particles_per_hypothesis": 512, "simulated_outcomes": 256,
+                "composite_length": 10.0, "background_prob": 0.03},
+  "simulation": {"budget_usd": 1500000.0, "inference_batch": 65536, "deterministic": true,
+                "retrain_mode": "retrain", "finetune_epochs": 200},
+  "benchmark": {"n_worlds_per_scenario": 2, "strategies": ["random", "regular_grid", "max_uncertainty",
+               "eivr_per_cost", "multi_objective"], "n_holes": 8, "base_seed": 2000}
+}
